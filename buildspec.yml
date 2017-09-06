@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo NOthing to build
+
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - FrancoRezabekProfile.pdf
+    - styles/main.css
+    - images/*
