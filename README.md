@@ -1,2 +1,2 @@
 # srvless-portfolio
-Profesional portfolio running serverless on AWS.
+Professional portfolio running ServerLess on AWS.
