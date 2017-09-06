@@ -1,4 +1,4 @@
-import StringIo
+import io
 import zipfile
 import mimetypes
 
@@ -7,10 +7,10 @@ from botocore.client import Config
 
 s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
-profile_bucket = s3.Bucket('portfolio.francorezabek.info')
+portfolio_bucket = s3.Bucket('portfolio.francorezabek.info')
 build_bucket = s3.Bucket('portfoliobuild.francorezabek.info')
 
-portfolio_zip = StringIo.StringIo()
+portfolio_zip = io.BytesIO()
 build_bucket.download_fileobj('portfoliobuild.zip', portfolio_zip)
 
 with zipfile.ZipFile(portfolio_zip) as myzip:
