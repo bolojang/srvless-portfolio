@@ -3,7 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo NOthing to build
+      - echo Nothing to build
 
 artifacts:
   files:
