@@ -3,8 +3,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to build
-
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -12,3 +12,4 @@ artifacts:
     - FrancoRezabekProfile.pdf
     - styles/main.css
     - images/*
+    - dist/bundle.js
