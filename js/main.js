@@ -16,8 +16,7 @@ const myWork = [
     'image': {
       'desc': "example screenshot of a project involving chemistry",
       'src': "images/example2.png",
-      'comment': `“Chemistry” by Surian Soosay is licensed under CC BY 2.0
-                   https://www.flickr.com/photos/ssoosay/4097410999`
+      'comment': ""
     }
   },
   {
